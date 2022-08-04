@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: "vazirReg";
+  src: url("./fonts/Vazirmatn-Regular.eot");
+  src: url("./fonts/Vazirmatn-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazirmatn-Regular.woff2") format("woff2"),
+    url("./fonts/Vazirmatn-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazirMedium";
+  src: url("./fonts/Vazirmatn-Medium.eot");
+  src: url("./fonts/Vazirmatn-Medium.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazirmatn-Medium.woff2") format("woff2"),
+    url("./fonts/Vazirmatn-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazirSemibold";
+  src: url("./fonts/Vazirmatn-SemiBold.eot");
+  src: url("./fonts/Vazirmatn-SemiBold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazirmatn-SemiBold.woff2") format("woff2"),
+    url("./fonts/Vazirmatn-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazirBold";
+  src: url("./fonts/Vazirmatn-Bold.eot");
+  src: url("./fonts/Vazirmatn-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazirmatn-Bold.woff2") format("woff2"),
+    url("./fonts/Vazirmatn-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "vazirBlack";
+  src: url("./fonts/Vazirmatn-Black.eot");
+  src: url("./fonts/Vazirmatn-Black.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazirmatn-Black.woff2") format("woff2"),
+    url("./fonts/Vazirmatn-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  scrollbar-color: rgb(107, 1, 107) rgba(221, 221, 221, 0.4);
+  scrollbar-width: thin;
+}
