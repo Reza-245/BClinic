@@ -8,6 +8,7 @@ import {
   FaComments,
   FaUserFriends,
   FaUserCircle,
+  FaUserMd,
 } from "react-icons/fa";
 import { AiFillSetting } from "react-icons/ai";
 import { MdOutlineHelp } from "react-icons/md";
@@ -158,32 +159,241 @@ function App() {
 
         <div className="col-span-10 bg-slate-100">
           <header className=" text-violet-900 flex justify-start items-center pr-5 h-20 text-3xl font-vazirBold">
-            داشبوردwwww
+            داشبورد
           </header>
-          <section className="bg-cyan-500 h-[calc(100%_-_5rem)] grid grid-cols-12">
-            <div className="col-span-12 ">
-              <div className=" w-80 h-60 rounded-3xl bg-gradient-to-tl from-indigo-400 to-violet-700 p-3">
-                <div className="h-16 flex items-center justify-between">
-                  <h4 className="font-vazirBold text-xl text-white">
-                    آخرین درخواست ها
-                    <span className="bg-white p-3 rounded-full ">
-                      <BsChatSquareTextFill className="text-4xl  inline-block text-violet-700 " />
-                    </span>
-                  </h4>
+          <section className=" h-[calc(100%_-_5rem)] grid grid-cols-12">
+            <div className="col-span-12 flex justify-start gap-4 px-4 ">
+              <div className=" shadow-lg shadow-zinc-300 w-80 h-60 rounded-3xl bg-gradient-to-tl from-indigo-400 to-violet-700 p-3">
+                <div className="h-14 flex items-center justify-between font-vazirBold text-xl text-white">
+                  <span>آخرین درخواست ها</span>
+                  <span className="bg-white p-3 rounded-full">
+                    <BsChatSquareTextFill className="text-4xl  inline-block text-violet-700 " />
+                  </span>
                 </div>
-                <div className="bg-violet-400 h-[calc(100%_-_4rem)] rounded-lg overflow-auto ">
+                <div className="bg-violet-300 h-[calc(100%_-_4rem)] rounded-2xl overflow-auto mt-2 ">
                   <ul className="px-2 py-1">
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
-                    <li>محمد امیری</li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className=" shadow-lg shadow-zinc-300 w-80 h-60 rounded-3xl bg-gradient-to-tl from-indigo-400 to-violet-700 p-3">
+                <div className="h-14 flex items-center justify-between font-vazirBold text-xl text-white">
+                  <span>آخرین ویزیت های ثبت شده</span>
+                  <span className="bg-white p-3 rounded-full">
+                    <FaUserFriends className="text-4xl  inline-block text-violet-700 " />
+                  </span>
+                </div>
+                <div className="bg-violet-300 h-[calc(100%_-_4rem)] rounded-2xl overflow-auto mt-2 ">
+                  <ul className="px-2 py-1">
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className=" shadow-lg shadow-zinc-300 w-80 h-60 rounded-3xl bg-gradient-to-tl from-indigo-400 to-violet-700 p-3">
+                <div className="h-14 flex items-center justify-between font-vazirBold text-xl text-white">
+                  <span>آخرین ویزیت های انجام شده</span>
+                  <span className="bg-white p-3 rounded-full">
+                    <FaUserMd className="text-3xl  inline-block text-violet-700 " />
+                  </span>
+                </div>
+                <div className="bg-violet-300 h-[calc(100%_-_4rem)] rounded-2xl overflow-auto mt-2 ">
+                  <ul className="px-2 py-1">
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
+                    <li className="text-violet-900">
+                      محمد امیری
+                      <span className="text-sm mr-2 opacity-60 font-perDigit">
+                        1401/03/08
+                      </span>
+                    </li>
                   </ul>
                 </div>
               </div>

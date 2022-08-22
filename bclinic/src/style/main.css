@@ -1,6 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "perDigit";
+  src: url("./fonts/Shabnam-Light-FD-WOL.eot");
+  src: url("./fonts/Shabnam-Light-FD-WOL.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/Shabnam-Light-FD-WOL.woff2") format("woff2"),
+    url("./fonts/Shabnam-Light-FD-WOL.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 @font-face {
   font-family: "vazirReg";
   src: url("./fonts/Vazirmatn-Regular.eot");

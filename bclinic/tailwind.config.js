@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
+        perDigit: "perDigit",
         vazirReg: "vazirReg",
         vazirMedium: "vazirMedium",
         vazirSemibold: "vazirSemibold",
